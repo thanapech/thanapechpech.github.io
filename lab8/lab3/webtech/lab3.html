@@ -1,0 +1,223 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>validate form inputs</title>
+<script src="SpryAssets/SpryValidationTextField.js" type="text/javascript"></script>
+<script src="SpryAssets/SpryValidationSelect.js" type="text/javascript"></script>
+<link href="SpryAssets/SpryValidationTextField.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryValidationSelect.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+body,td,th {
+	font-size: 24px;
+}
+</style>
+</head >
+
+
+<body background="tet.jpg">
+<p align="center"><span id="sprytextfield10"><span class="textfieldRequiredMsg">A value is required.</span></span></p>
+<form id="form1" name="form1" method="post" action="">
+  <p align="center">
+    <label for="fName3">FirstName</label>
+    <span id="sprytextfield3">
+      <label for="text22"></label>
+      <input type="text" name="fname" id="fname" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></p>
+  <p align="center">
+    <label for="LastName3">LastName</label>
+    <span id="sprytextfield4">
+      <label for="text23"></label>
+      <input type="text" name="lname" id="lname" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></p>
+  <p align="center"> <strong>Address </strong></p>
+  <p align="center">
+    <label for="HouseNumber3">HouseNumber<span id="sprytextfield1">
+      <input type="text" name="hname" id="hname" />
+      <span class="textfieldRequiredMsg">A value is required.</span></span></label>
+    <span id="sprytextfield5">
+      <label for="text24"></label>
+      <span class="textfieldRequiredMsg">A value is required.</span></span>
+    <label for="Street3">Street</label>
+    <span id="sprytextfield6">
+      <label for="text25"></label>
+      <span class="textfieldRequiredMsg">A value is required.</span></span><span id="sprytextfield2">
+        <label for="text22"></label>
+        <input type="text" name="streetname" id="streetname" />
+        <span class="textfieldRequiredMsg">A value is required.</span></span></p>
+  <p align="center">City<span id="sprytextfield7">
+    <label for="text1"></label>
+    <input type="text" name="city" id="city" />
+  <span class="textfieldRequiredMsg">A value is required.</span></span>Province<span id="sprytextfield8">
+  <label for="text38"></label>
+  <input type="text" name="province" id="province" />
+  <span class="textfieldRequiredMsg">A value is required.</span></span></p>
+  <p align="center">Zipcode
+  <label for="Zipcode3"></label>
+    <span id="sprytextfield9">
+      <label for="text28"></label>
+      <input type="text" name="zip" id="zip" />
+    <span class="textfieldInvalidFormatMsg">Invalid format.</span></span></p>
+  <p align="center"> Phone number
+    <label for="phone3"></label>
+    <span id="sprytextfield">
+      <label for="text29"></label>
+    <span id="sprytextfield12">
+      <label for="text34"></label>
+      <input name="phone" type="text" id="phone" maxlength="13" />
+    <span class="textfieldRequiredMsg">A value is required.</span></span>    </span></p>
+  <p align="center">Cell phone number
+    <label for="cellphone4"></label>
+    <span id="sprytextfield11">
+    <label for="text32"></label>
+    <input name="cellphone" type="text" id="cellphone2" maxlength="14" />
+  <span class="textfieldRequiredMsg">A value is required.</span></span></p>
+  <p align="center">Birthday:
+    <input type="date" name="bday2" />
+  </p>
+  <p align="center">Citizenship number
+    <label for="idcard4"></label>
+    <span id="sprytextfield16">
+      <label for="text33"></label>
+      <input name="citicen" type="text" id="citicen" maxlength="13" />
+      <span class="textfieldRequiredMsg">A value is required.</span><span class="textfieldInvalidFormatMsg">Invalid format.</span></span></p>
+  <p align="center">Zodiac Sign
+    <label for="textfield11"></label>
+    <span id="spryselect4">
+      <label for="zosig4"></label>
+      <select name="zosig" id="zosig">
+        <option>ราศีมังกร </option>
+        <option>ราศีกุมภ์ </option>
+        <option>ราศีมีน </option>
+        <option>ราศีเมษ </option>
+        <option>ราศีพฤษภ </option>
+        <option>ราศีเมถุน </option>
+        <option>ราศีกรกฏ </option>
+        <option>ราศีสิงห์ </option>
+        <option>ราศีกันย์ </option>
+        <option>ราศีตุลย์ </option>
+        <option>ราศีพิจิก </option>
+        <option>ราศีธนู </option>
+      </select>
+    </span></p>
+  <p align="center">Zodiac Year
+    <label for="textfield12"></label>
+    <span id="spryselect5">
+      <label for="zoyear4"></label>
+      <select name="zoyear" id="zoyear">
+        <option>ชวด</option>
+        <option>ฉลู</option>
+        <option>ขาล </option>
+        <option>เถาะ </option>
+        <option>มะโรง </option>
+        <option>มะเส็ง </option>
+        <option>มะเมีย </option>
+        <option>มะแม </option>
+        <option>วอก </option>
+        <option>ระกา </option>
+        <option>จอ </option>
+        <option>กุน</option>
+      </select>
+    </span></p>
+  <p align="center">Birth Day of Week
+    <label for="textfield13"></label>
+    <span id="spryselect6">
+      <label for="bdow4"></label>
+      <select name="bdow" size="1" id="bdow">
+        <option>Monday</option>
+        <option>Tuesday</option>
+        <option>Wednesday</option>
+        <option>Thursday</option>
+        <option>Friday</option>
+        <option>Saturday</option>
+        <option>Sunday</option>
+      </select>
+    </span></p>
+  <p align="center">
+    <input type="button" name="save2" id="save2" value="save" onclick="setCookie(name,value)" />
+    <input type="submit" name="submit2" id="submit2" value="submit" />
+    <input type="reset" name="clear2" id="clear2" value="clear" />
+  </p>
+</form>
+<p align="center">&nbsp;</p>
+<p>&nbsp;</p>
+<form action="action_page.php">
+<div align="left">
+</div>
+</form>
+</div>
+<script type="text/javascript">
+var spryselect6 = new Spry.Widget.ValidationSelect("spryselect6", {isRequired:false});
+var spryselect5 = new Spry.Widget.ValidationSelect("spryselect5", {isRequired:false});
+var spryselect4 = new Spry.Widget.ValidationSelect("spryselect4", {isRequired:false});
+var sprytextfield10 = new Spry.Widget.ValidationTextField("sprytextfield10", "none", {hint:"+662-xxx-xxxx"});
+var sprytextfield16 = new Spry.Widget.ValidationTextField("sprytextfield16", "integer");
+var sprytextfield11 = new Spry.Widget.ValidationTextField("sprytextfield11", "none", {hint:"+66xx-xxx-xxxx"});
+var sprytextfield9 = new Spry.Widget.ValidationTextField("sprytextfield9", "zip_code");
+var sprytextfield1 = new Spry.Widget.ValidationTextField("sprytextfield1");
+var sprytextfield2 = new Spry.Widget.ValidationTextField("sprytextfield2");
+var sprytextfield3 = new Spry.Widget.ValidationTextField("sprytextfield3");
+var sprytextfield4 = new Spry.Widget.ValidationTextField("sprytextfield4");
+var sprytextfield12 = new Spry.Widget.ValidationTextField("sprytextfield12", "none", {hint:"+662-xxx-xxxx"});
+var sprytextfield7 = new Spry.Widget.ValidationTextField("sprytextfield7");
+var sprytextfield8 = new Spry.Widget.ValidationTextField("sprytextfield8");
+</script>
+
+<script type="text/javascript">
+
+  // Original JavaScript code by Chirp Internet: www.chirp.com.au
+  // Please acknowledge use of this code by including this header.
+
+  var today = new Date();
+  var expiry = new Date(today.getTime() + 30 * 24 * 3600 * 1000); // plus 30 days
+
+  function setCookie(name, value)
+  {
+    document.cookie=name + "=" + escape(value) + "; path=/; expires=" + expiry.toGMTString();
+  }
+
+</script>
+
+<script type="text/javascript">
+function storeValues(form)  
+  {
+    setCookie("fname", form.fname.value);
+    setCookie("lname", form.lname.value);
+    setCookie("hname", form.hname.value);
+    setCookie("streetname", form.streetname.value);
+	 setCookie("city", form.city.value);
+	  setCookie("province", form.province.value);
+	   setCookie("zip", form.zip.value);
+	    setCookie("phone", form.phone.value);
+		 setCookie("cellphone", form.cellphone.value);
+		  setCookie("bday2", form.bday.value);
+		   setCookie("citicen", form.citicen.value);
+		   setCookie("zosig", form.zosig.value);
+		   setCookie("zoyear", form.zoyear.value);
+		   setCookie("bdow", form.bdow.value);
+    return true;
+  }
+
+</script>
+
+<script type="text/javascript">
+
+  if(field1 = getCookie("fname")) document.myForm.fname.value = fname;
+  if(field2 = getCookie("lname")) document.myForm.lname.value =lname;
+  if(field3 = getCookie("hname")) document.myForm.hname.value = hname;
+  if(field4 = getCookie("streetname")) document.myForm.streetname.value = streetname;
+  if(field4 = getCookie("city")) document.myForm.city.value = city;
+  if(field4 = getCookie("province")) document.myForm.province.value = province;
+  if(field4 = getCookie("zip")) document.myForm.zip.value = zip;
+  if(field4 = getCookie("phone")) document.myForm.phone.value = phone;
+  if(field4 = getCookie("cellphone")) document.myForm.cellphone.value =cellphone;
+  if(field4 = getCookie("bday2")) document.myForm.bday2.value = bday2;
+  if(field4 = getCookie("citicen")) document.myForm.citicen.value = citicen;
+  if(field4 = getCookie("zosig")) document.myForm.zosig.value = zosig;
+  if(field4 = getCookie("zoyear")) document.myForm.zoyear.value = zoyear;
+  if(field4 = getCookie("bdow")) document.myForm.bdow.value = bdow;
+  
+
+</script>
+</body>
+</html>
