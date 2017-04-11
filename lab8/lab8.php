@@ -79,7 +79,7 @@
 					<li><a href="lab1/5710450235test.html">Lab_1</a></li>					<li><a href="lab2/labs/index.html">Lab_2
                     </a></li>					
 					<li><a href="lab3/webtech/lab3.html">Lab_3</a></li>					<li><a href="lab4/lab4/lab4.html">Lab_4
-					</a></li>					<li><a href="file:///D|/cilivan/lab8/lab5/lab5.php">Lab_5
+					</a></li>					<li><a href="lab5/lab5.php">Lab_5
                     </a></li>					
 					<li><a href="file:///D|/cilivan/lab8/lab6/lab6/lab6.php">Lab_6-1</a></li>
 					<li><a href="file:///D|/cilivan/lab8/lab6/lab6/lab6-2.php">Lab_6-2</a></li>					
